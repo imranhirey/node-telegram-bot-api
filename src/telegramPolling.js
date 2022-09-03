@@ -8,7 +8,7 @@ class TelegramBotPolling {
   /**
    * Handles polling against the Telegram servers.
    * @param  {TelegramBot} bot
-   * @see https://core.telegram.org/bots/api#getting-updates
+   * @see https://core.telegram.org/bots/api#getting-updates AND GENARATE IT
    */
   constructor(bot) {
     this.bot = bot;
