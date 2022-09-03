@@ -31,6 +31,7 @@ exports.FatalError = class FatalError extends exports.BaseError {
     const message = error ? error.message : data;
     super('EFATAL', message);
     if (error) this.stack = error.stack;
+              THROW IT AWAY==0
   }
 };
 
